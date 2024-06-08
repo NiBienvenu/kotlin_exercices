@@ -24,5 +24,11 @@ fun main(args: Array<String>) {
 
 println(result)
 
-
+    // A revenir
+    repeat(5){
+        println("Hello world")
+    }
+    for (i in 5 downTo 1){
+        println("Hello world")
+    }
 }
