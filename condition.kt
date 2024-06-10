@@ -1,3 +1,4 @@
+import java.util.Scanner
 
 
 fun main(args: Array<String>) {
@@ -15,6 +16,9 @@ fun main(args: Array<String>) {
         30->println("a egal a 30")
         else->println("a n'est pas egal a 10, 20 ou 30")
     }
+
+    var input =  readLine()
+    println("ddd : " + input)
 
     var result = if (a > b){
         a-b
