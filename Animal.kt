@@ -5,13 +5,12 @@ open class Animal {
             if (value>0)
                 field = value
         }
-    public fun getAge() = age
+
 
 }
 class Vegetal : Animal() {
 
     fun testAnimal(){
-        println(this.getAge())
     }
 }
 fun main() {
